@@ -1,5 +1,19 @@
 variable "account_id" {
   type = number
+  default ="4268913"
+}
+
+variable "api_key" {
+  type = string
+  default = "NRAK-RKR4W00BTZXP9II15IWZQKC0SLR"
+}
+variable "region" {
+  type = string
+  default = "US"
+}
+variable "name" {
+  type = string
+ default = "terraformdefault"
 }
 variable "loop" {
     type = list(any)
